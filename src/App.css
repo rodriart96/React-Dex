@@ -1,0 +1,23 @@
+.App {
+
+  padding-top: 6rem;
+  min-height: 100vh;
+}
+
+.navbar{
+  background-color: #ef5350 !important;
+  
+}
+.container{
+  width: 95% !important;
+}
+.spinnerDanger{
+  margin-bottom: -3.5rem !important;
+}
+.spinner{
+  margin-top: 1rem !important;
+
+}
+.nombre{
+  margin-top: -1rem !important;
+}

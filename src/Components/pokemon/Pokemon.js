@@ -362,41 +362,41 @@ export default class Pokemon extends Component {
                                     <div className='row'>
                                         <div className='col-md-6  '>
                                                 <hr/>
-                                            <div className='row mb-3 col-md-12'>
-                                                <div className=''>
+                                            <div className='row '>
+                                                <div className='col-6'>
                                                     <h6 className='float-right'>Height:</h6>
                                                 </div>
                                             
-                                                    <div className='col-md-6'>
+                                                    <div className='col-6'>
                                                         <h6 className='float-left'>{this.state.height} CM</h6>
                                                     </div>
                                             </div>
                                                 <hr/>
-                                            <div className='row mb-3 col-md-12'>
-                                                <div className=''>
+                                            <div className='row '>
+                                                <div className='col-6'>
                                                     <h6 className='float-right'>Weight:</h6>
                                                 </div>
                                             
-                                                    <div className='col-md-6'>
+                                                    <div className='col-6'>
                                                         <h6 className='float-left'>{this.state.weight} KG</h6>
                                                     </div>
                                             </div>
                                                 <hr/>
-                                            <div className='row mb-3 col-md-12'>
-                                                <div className=''>
+                                            <div className='row '>
+                                                <div className='col-6'>
                                                     <h6 className='float-right'>Catch Rate:</h6>
                                                 </div>
                                             
-                                                    <div className='col-md-6'>
+                                                    <div className='col-6'>
                                                         <h6 className='float-left'>{this.state.catchRate} %</h6>
                                                     </div>
                                             </div>
                                                 <hr/>
-                                            <div className='row mb-3 col-md-12'>
-                                            <div className=''>
+                                            <div className='row '>
+                                            <div className='col-6'>
                                                 <h6 className='float-right'>Gender Ratio:</h6>
                                                 </div>
-                                                    <div className='col-md-6'>
+                                                    <div className='col-6'>
                                                         <div className='progress'>
                                                             <div 
                                                             className='progress-bar' 
@@ -432,49 +432,49 @@ export default class Pokemon extends Component {
                                         </div>
                                         <div className='col-md-6  '>
                                             <hr/>
-                                            <div className='row mb-3 col-md-12'>
-                                                <div className=''>
+                                            <div className='row '>
+                                                <div className='col-6'>
                                                     <h6 className='float-right'>Egg Groups:</h6>
                                                 </div>
                                             
-                                                    <div className='col-md-6'>
+                                                    <div className='col-6'>
                                                         <h6 className='float-left'>{this.state.eggGroups}</h6>
                                                     </div>
                                             </div>
                                             <hr/>   
-                                            <div className='row mb-3 col-md-12'>
-                                                <div className=''>
+                                            <div className='row '>
+                                                <div className='col-6'>
                                                     <h6 className='float-right'>Hatch Steps:</h6>
                                                 </div>
                                             
-                                                    <div className='col-md-6'>
+                                                    <div className='col-6'>
                                                         <h6 className='float-left'>{this.state.hatchSteps}</h6>
                                                     </div>
                                             </div>
                                             <hr/>
-                                            <div className='row mb-3 col-md-12'>
-                                                <div className=''>
+                                            <div className='row'>
+                                                <div className='col-6'>
                                                     <h6 className='float-right'>Abilities:</h6>
                                                 </div>
                                             
-                                                    <div className='col-md-6'>
+                                                    <div className='col-6'>
                                                         <h6 className='float-left'>{this.state.abilities}</h6>
                                                     </div>
                                             </div>
                                             <hr/>
-                                            <div className='row mb-3 col-md-12'>
-                                                <div className=''>
+                                            <div className='row '>
+                                                <div className='col-6'>
                                                     <h6 className='float-right'>EVS:</h6>
                                                 </div>
                                             
-                                                    <div className='col-md-6'>
+                                                    <div className='col-6'>
                                                         <h6 className='float-left'>{this.state.evs}</h6>
                                                     </div>
                                             </div>
                                             <hr/>
                                           </div>                     
                                         </div>
-                                    </div>
+                                        </div>
                                 </div>
                         </div>
                         <div className='card-footer text-muted'>

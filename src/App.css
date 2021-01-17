@@ -1,12 +1,27 @@
 .App {
-
   padding-top: 6rem;
   min-height: 100vh;
 }
-
+.disabled{
+  color: rgb(37, 37, 37) !important;
+}
 .navbar{
   background-color: #ef5350 !important;
-  
+}
+.navbar-brand{
+  color: #fff !important;
+}
+.nav-link{
+  color: #fff !important;
+}
+.disabled{
+  color: rgb(56, 56, 56) !important;
+}
+.dropdown-menu ul li a{
+  color: black !important;
+}
+.dropdown-menu ul li a:hover{
+  color:  #ef5350 !important;
 }
 .container{
   width: 95% !important;
@@ -20,4 +35,18 @@
 }
 .nombre{
   margin-top: -1rem !important;
+}
+.upDex{
+  background-color: #ef5350;
+  height: 90vh;
+  width: 100%;
+  margin-bottom: 50vh;
+}
+.DexOp{
+  background-color:#027CC8;
+  height: 130px;
+  width: 130px;
+  border-radius: 100%;
+  position: relative;
+  top: 90%;
 }

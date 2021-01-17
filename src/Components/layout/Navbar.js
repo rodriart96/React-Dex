@@ -12,25 +12,29 @@ export default class Navbar extends Component {
         return (
             <div>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-                    <a class="navbar-brand" href="#">React Dex</a>
+                    <Link class="navbar-brand" to="/">React Dex</Link>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
+
                             <li class="nav-item ">
-                                <a class="nav-link disabled" href="#">Home<span class="sr-only">(current)</span></a>
+                                <Link class="nav-link" to="/">Home<span class="sr-only">(current)</span></Link>
                             </li>
+
                             <li class="nav-item ">
-                                <a class="nav-link disabled" href="#">Abilites</a>
+                                <Link class="nav-link disabled" to="#">Abilites</Link>
                             </li>
+
                             <li class="nav-item ">
-                                <a class="nav-link disabled" href="#">Berries</a>
+                                <Link class="nav-link disabled" to="#">Berries</Link>
                             </li>
+
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <Link class="nav-link dropdown-toggle" to="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 National Pokedex
-                                </a>
+                                </Link>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                     <ul>
                                             <li><Link to='/Kanto' className='navbar-brand col-sm-2 col-md-3 mr-0 align-items-center '>Kanto </Link></li>

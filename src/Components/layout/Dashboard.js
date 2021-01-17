@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import PokemonDex from '../pokemon/Kanto.js'
+import PokemonDex from '../layout/PokemonDex.js'
 
 export default class Dashboard extends Component {
     render() {

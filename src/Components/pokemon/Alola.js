@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import PokemonCard from './PokemonCard.js'
+import PokemonCard from './PokemonCard';
 import axios from 'axios';
 
-export default class Alolah extends Component {
+export default class Alola extends Component {
 
     state={
         url: 'https://pokeapi.co/api/v2/pokemon/?limit=88&offset=721',

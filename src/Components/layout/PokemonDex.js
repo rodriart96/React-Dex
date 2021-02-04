@@ -29,9 +29,12 @@ color: black;
     text-decoration: none;
     }
 `;
+
+
 export default class PokemonDex extends Component {
 
     
+
     render() {
         return (
             <div>
@@ -89,12 +92,9 @@ export default class PokemonDex extends Component {
                             
                         
                         <div className='row'>
-                                <Card className='col-sx-6 col-sm-4 mx-auto mt-3 d-flex justify-content-center'>
-                                    <StyledLink to='/Kanto'><h2>Abilities</h2></StyledLink>
-                                </Card>
 
                                 <Card className='col-sx-6 col-sm-4 mx-auto mt-3 d-flex justify-content-center'>
-                                    <StyledLink to='/Johto'><h2>Berrys</h2></StyledLink>
+                                    <StyledLink to='/berry'><h2>Berrys</h2></StyledLink>
                                 </Card>
                         </div>
 

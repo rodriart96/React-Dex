@@ -8,6 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 export default class Navbar extends Component {
+    
+
     render() {
         return (
             <div>
@@ -18,17 +20,8 @@ export default class Navbar extends Component {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav">
-
                             <li class="nav-item ">
-                                <Link class="nav-link" to="/">Home<span class="sr-only">(current)</span></Link>
-                            </li>
-
-                            <li class="nav-item ">
-                                <Link class="nav-link disabled" to="#">Abilites</Link>
-                            </li>
-
-                            <li class="nav-item ">
-                                <Link class="nav-link disabled" to="#">Berries</Link>
+                                <Link class="nav-link" to="/berry">Berries</Link>
                             </li>
 
                             <li class="nav-item dropdown">

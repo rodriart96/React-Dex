@@ -54,7 +54,7 @@ export default class Pokemon extends Component {
     //urls
     const pokemonURL = `https://pokeapi.co/api/v2/pokemon/${dexNumber}/`;
     const pokemonSpecies = `https://pokeapi.co/api/v2/pokemon-species/${dexNumber}/`;
-    const img = `https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/versions/generation-v/black-white/animated/${dexNumber}.gif?raw=true`
+    //const img = `https://github.com/PokeAPI/sprites/blob/master/sprites/pokemon/versions/generation-v/black-white/animated/${dexNumber}.gif?raw=true`
 
     //get info
     const pokemonRes = await axios.get(pokemonURL);
@@ -88,6 +88,8 @@ export default class Pokemon extends Component {
                     break;
                 case 'special-defense':
                     specialDefense = stat['base_stat'];
+                    break;
+                case 'default':
                     break;       
             }
         });
@@ -218,7 +220,8 @@ export default class Pokemon extends Component {
                     <div className ='card-body'>
                         <div className = 'row align-items-center'>
                             <div className='col-md-3'>
-                                <img src = {this.state.imgUrl}
+                                <img src = {this.state.imgUrl }
+                                    alt={this.state.name}
                                     className='card-img-top rounded mx-auto mt-0'
                                     style={{
                                        

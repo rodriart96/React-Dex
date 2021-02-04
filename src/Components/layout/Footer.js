@@ -5,7 +5,7 @@ export default class Footer extends Component {
         return (
             <div className='card-footer text-muted'>
                 Data from {' '}       
-                    <a href='' target='_blank' className='card-link'>   
+                    <a href='https://pokeapi.co/' target='_blank' className='card-link'  without rel="noreferrer">   
                         PokeApi.co
                     </a>       
             </div>

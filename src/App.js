@@ -3,11 +3,10 @@ import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 
-import FrontLayer from './Components/layout/frontlayer'
-import Navbar from './Components/layout/Navbar.js';
-import Dashboard  from './Components/layout/Dashboard.js';
-import Footer from './Components/layout/Footer.js'
 
+import Navbar from './Components/layout/Navbar.js';
+
+import Footer from './Components/layout/Footer.js'
 
 import Pokemon from './Components/pokemon/Pokemon';
 import Johto from './Components/pokemon/Johto';
@@ -19,12 +18,13 @@ import Kanto from './Components/pokemon/Kanto';
 import Alola from './Components/pokemon/Alola';
 import Galar from './Components/pokemon/Galar';
 import PokemonDex from './Components/layout/PokemonDex';
+import BerryList from './Components/berries/BerryList';
+import Berry from './Components/berries/Berry';
 
 function App() {
   return (
       <Router>
         <div className="App"> 
-        
           <Navbar/>
           <div className='container'>
             <Switch>
@@ -38,6 +38,9 @@ function App() {
               <Route exact path="/kalos/" component={Kalos}/>
               <Route exact path="/alolah/" component={Alola}/>
               <Route exact path="/galar" component={Galar}/>
+
+              <Route exact path="/berry" component={BerryList}/>
+              <Route exact path="/Berry/:id" component={Berry}/>
             </Switch>
           </div>
           <Footer/>

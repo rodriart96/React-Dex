@@ -6,7 +6,7 @@ export default class frontlayer extends Component {
             
                 <div className='pokedexFront'>
                    <div className='upDex fixed-top'>
-                       <button className='DexOp col-12 mx-auto d-flex justify-content-center '></button>
+                       <button className='DexOp col-12 mx-auto d-flex justify-content-center'></button>
                    </div>
                    
                 </div>
